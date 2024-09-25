@@ -1,0 +1,130 @@
+/* Style the main page content */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #000; /* Dark theme for elegance */
+    padding: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: #000;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+#about {
+    background-color: #eaeaea;
+}
+
+#collections {
+    background-color: #dcdcdc;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+/* Collection Items Styling */
+.collection-item {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collection-item h2 {
+    color: #000;
+}
+
+/* Contact Section */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        margin: 5px 0;
+    }
+}
+
+/* Style for the entire menu */
+.navbar {
+    font-family: 'Roboto', sans-serif; /* Change this to your chosen font */
+    font-size: 16px; /* Font size for menu items */
+    font-weight: 700; /* Bold font weight */
+    color: #333; /* Text color */
+    background-color: #f8f8f8; /* Background color for the menu */
+    padding: 10px; /* Space around the menu */
+    text-align: center; /* Center align the menu items */
+
+font-family: 'Roboto', sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    font-weight: 700; /* Font weight */
+    color: white; /* Text color */
+    background-color: #333; /* Background color of the menu */
+    padding: 10px; /* Space around the menu */
+    text-align: center; /* Center align the menu items */
+}
+
+/* Style for the unordered list */
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for each menu item */
+.navbar li {
+    display: inline; /* Display items inline */
+    margin: 0 15px; /* Space between menu items */
+}
+
+/* Style for the links */
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color set in the .menu class */
+    transition: color 0.3s; /* Smooth color change on hover */
+text-decoration: none; /* Remove underline */
+    color: white; /* Text color for links */
+    transition: color 0.3s; /* Smooth color change on hover */
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    color: #007BFF; /* Change color on hover */
+}
